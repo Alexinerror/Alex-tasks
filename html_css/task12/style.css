@@ -1,0 +1,23 @@
+
+body {
+    background-color: #DEDEDE;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.right {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.right::after {    
+    height: 400px;
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    inset: 0;
+}
