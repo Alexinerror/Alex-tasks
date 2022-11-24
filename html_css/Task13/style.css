@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-image: url(.//Images/photo_5334643664657432625_y.jpg);
+    background-repeat: no-repeat;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid;
+    margin-top: 284px;
+    margin-left: 500px;
+    width: 280px;
+    height: 280px;
+}
+
+.logbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;   
+}    
+
+.logbar h3 {
+    color: white;
+    font-size: 25px;
+}
+
+.logbar input {
+    width: 230px;
+    height: 30px;
+}
+
+.logbar button {
+    width: 230px;
+    height: 30px;
+}
+
+.remember {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    
+}   
+
+.remember input {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.remember pass {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: white;
+    font-size: 13px;
+}
