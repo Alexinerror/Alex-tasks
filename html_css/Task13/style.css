@@ -4,8 +4,10 @@
 
 body {
     margin: 0;
+    /*A: url-leri dirnaqda yazaq z/o      */
     background-image: url(.//Images/photo_5334643664657432625_y.jpg);
     background-repeat: no-repeat;
+    /*A: bac-size cover verek ki, butun ekrani tutsun.       */
 }
 
 form {
@@ -33,11 +35,13 @@ form {
 }
 
 .logbar input {
+    /*A: calismaq lazimdir ki, input-a fixed width verilmesin. Parentine verin, input-a da 100% verin.      */
     width: 230px;
     height: 30px;
 }
 
 .logbar button {
+    /*A: button-da hemcinin      */
     width: 230px;
     height: 30px;
 }
