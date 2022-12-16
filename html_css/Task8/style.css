@@ -1,0 +1,34 @@
+* {
+       box-sizing: border-box;
+}
+
+body {
+       margin: 1em 1.5em 1em;
+}
+
+.container {
+       display: flex;
+       gap: 20px;
+}
+
+.photo {
+       border: 2px solid lightgray;
+}
+
+.photo1 {
+       border: 5px solid;
+}
+.img {
+       width: 350px;
+       height: 250px;
+}
+
+.text {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 350px;
+       height: 50px;
+       font-size: 24px;
+       font-weight: bold;
+}
