@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mende+Kikakui&display=swap');
+
+* {
+    box-sizing: border-box; 
+}
+
+:root {
+    font-family: 'Noto Sans Mende Kikakui', sans-serif;
+    color: white;
+    height: 100vh;
+    background-image: url(.//images/Milan_Holidays_Hover.jpg);
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 77%;
+    height: calc(100% - 2em - 1em);
+    /* height: 100%; */
+    margin: 2em auto 1em;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 44px;
+}
+
+h4, p {
+    margin: 0;
+}
+
+.logo {
+    display: flex;
+    color: #F26522;
+    gap: 1em;
+    height: 44px;
+    width: 166px;
+}
+
+.milan {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.logo h4 {
+    font-size: 25px;
+}
+
+.logo p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.contacts p {
+    text-align: right;
+    font-size: 18px;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 65px;
+}
+
+.price {
+    visibility: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    height: 50px;
+    width: 307px; 
+    color: #fff;
+    background-color: #f26422;
+    top: 310px;
+}
+
+.price1 {
+    top: 600px;
+}
+
+.from {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.sell1 {
+    font-size: 10px;
+}
+.sell {
+    font-size: 20px;
+}
+
+.price a {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.sell::before {
+    content: '€';
+}
+
+.card:hover .price {    
+    visibility: visible;
+}
+
+.card:hover {
+    color: #F26522;
+}
+
+.card img {
+    height: 200px;
+    width: 307px;
+}
+
+.card p {
+    text-align: center;
+
+}
+
+footer {
+    text-align: center;
+}
+
+
