@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 200px;
+    height: 80px;
+    border: 1px solid;
+    margin: 100px auto;
+    display: flex;
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+.dot {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.left-side {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-right: 1px solid ;
+}
+
+.left-side .dot2 {
+    align-self: center;
+}
+
+.left-side .dot3 {
+    align-self: flex-end;
+}
+
+.right-side {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+.df {
+    display: flex;
+}
+
+.space-btwn {
+    justify-content: space-between;
+}
+.flex-center{
+    justify-content: center;
+}
