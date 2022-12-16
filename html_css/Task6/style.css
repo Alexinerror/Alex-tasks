@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+.ramda {
+    font-size: 50px;
+    margin: 10px 40px 10px;
+    padding: 0 60px;
+}
+
+.ramda p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+span {
+    color: #4BCAFF;
+}
+
+.upper {
+    display: block;
+    background-color: #34454f;
+    text-align: center;
+    font-size: 24px;
+    width: 1700px;
+    height: 60px;
+    margin: 0 100px;
+    padding: 16px;
+}
+
+.upper:hover {
+    color: white;
+    background-color: #222F3A;
+}
+
+.upper a {
+    display: inline-block;
+    text-decoration: none;
+    border: 1px black;
+    color: white;
+    padding: 0 20px;
+    margin: 0 45px;
+}
+
+.center {
+    display: inline-block;
+    width: 344px;
+    height: 400px;
+    border: 1px solid;
+    padding-left: 60px;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 0;
+}
+
+.center a {
+    display: block;
+    font-size: 25px;
+    color: #232e3a;
+    text-decoration: none;
+    height: 60px;
+    margin-top: 20px;
+}    
+
+.photot {
+    display: block;
+    width: 885px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 87px;
+}
+
+.photo {
+    display: block;
+    height: 530px;
+    padding: 70px 280px;
+    border: 1px solid;
+}
+
+.text {
+    display: block;
+    font-size: 18px;
+    width: 820px;
+    text-align: justify;
+    margin: auto;
+}
+
+.bottom {
+    display: block;
+    background-color: #DBDEE0;
+    margin-top:  390px;
+    margin-left: 100px;
+    height: 70px;
+    font-size: 26px;
+    width: 1700px;
+    padding: 5px;
+}
+
+.ram {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+    padding: 7px;
+}
+
+.ram a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    margin: 0 15px;
+    padding: 10px;
+}
+
+.copy {
+    display: inline-block;
+}
+
+.copy a {
+    text-decoration: none;
+    color: black;
+    margin-left: 500px;
+}
