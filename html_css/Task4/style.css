@@ -1,0 +1,28 @@
+body {
+    background-color: green;
+}
+
+div{
+    display: block;
+    background-color: white;
+    width: 250px;
+    height: 160px;
+    text-align: center;
+    padding: 50px;
+    margin: 350px 750px;
+}
+
+h2 {
+    margin: 5px;
+    padding: 5px;
+}
+
+ul {
+    margin: 10px 20px;
+    padding: 10px;
+}
+
+li {
+    list-style-type: none;
+}
+    
